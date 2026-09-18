@@ -5,16 +5,16 @@
 /* General page styling */
 body {
   font-family: 'Segoe UI', Arial, sans-serif; /* Clean, readable font */
-  background-color: #fff8f0; /* Warm background color */
+  background: linear-gradient(to bottom, #fff8f0, #ffe5d9, #fceabb); /* Warm gradient background */
   color: #333; /* Dark text for readability */
   margin: 0;
   padding: 0;
   animation: fadeIn 1s ease-in; /* Fade-in animation on page load */
 }
 
-/* Header styling with gradient background */
+/* Header styling with vibrant gradient */
 header {
-  background: linear-gradient(90deg, #ff9966, #ff5e62); /* Gradient effect */
+  background: linear-gradient(90deg, #ff9a76, #ff6f61, #d65a31, #f6d365, #fda085); /* Rich bakery tones */
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -23,7 +23,7 @@ header {
 
 /* Navigation menu styling */
 nav {
-  background-color: #ffcc80; /* Warm tone for nav bar */
+  background-color: #f8c291; /* Warm gold tone */
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff6600; /* Highlight color on hover */
+  color: #6d4c41; /* Chocolate brown hover */
   transform: scale(1.1); /* Slight zoom effect */
 }
 
@@ -54,15 +54,17 @@ section {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
-  gap: 15px;
+  gap: 20px;
   padding: 20px;
 }
 
 .gallery img {
   width: 100%;
+  height: 220px;
+  object-fit: cover;
   border-radius: 12px; /* Rounded corners for images */
   box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Shadow for depth */
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  transition: transform 0.4s, box-shadow 0.4s; /* Smooth hover effect */
 }
 
 .gallery img:hover {
@@ -72,7 +74,7 @@ section {
 
 /* Footer styling with gradient */
 footer {
-  background: linear-gradient(90deg, #ff9966, #ff5e62); /* Gradient footer */
+  background: linear-gradient(90deg, #d65a31, #ff6f61, #ff9a76, #f6d365, #fda085); /* Vibrant footer gradient */
   color: white;
   text-align: center;
   padding: 10px 0;
